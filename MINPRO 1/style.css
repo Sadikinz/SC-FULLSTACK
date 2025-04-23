@@ -1,0 +1,82 @@
+@font-face {
+    font-family: font11;
+    src: url(feather_bold_by_typicalbro44_dee263c.ttf);
+}
+
+body {
+    background-color: #58cc02;
+    font-family: 'feather', sans serif;
+    margin: 100px;
+    height: 100%;
+}
+
+.container1 {
+    align-items: center;
+    display: flex;
+    padding: 20px ;
+    float: left;
+    width: 80%;
+}
+
+.h2 {
+    color: #ffffff;
+    font-family: Helvetica;
+    font-size: 53px;
+    margin: 0px;
+    margin-left: 9px;
+    height: 1px;
+}
+
+.h1 {
+    color: #ffffff;
+    font-family: font11, sans-serif;
+    font-size: 170px;
+    margin: 0px;
+    margin-top: 30px;
+    margin-left: 0px;
+    height: 200px;
+}
+
+.p {
+    color: #ffffff;
+    font-family: 'helvetica', sans-serif;
+    font-size: 25px;
+    align-items: left;
+    width: 750px;
+    text-align: justify;
+    margin-left: 9px;
+}
+
+.img1 {
+    flex: 1; 
+    justify-content: flex-end; 
+    padding: 20px;
+    text-align: right;
+    margin-left: 150px;
+}
+
+.button {
+    background-color: #ffffff;
+    border: none;
+    color: #58cc02;
+    padding: 25px 40px;
+    font-family: 'helvetica';
+    font-weight: bolder;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 100px;
+    position: absolute;
+    bottom: 190px;
+    left: 130px;
+    opacity: 1;
+    transition: ease-in;
+}
+
+.button:hover {
+   opacity: 1;
+   background-color: #4b4b4b;
+   color: #ffffff;
+}
